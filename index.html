@@ -1,36 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Blog preview card</title>
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="blogCard">
+      <header class="blogCard__header">
+        <figure class="blogCard__header-img">
+          <img
+            src="./assets/images/illustration-article.svg"
+            alt="cover image of the article about HTML & CSS foundations"
+            class="blogCard__image"
+          />
+          <figcaption>
+            <span class="blogCard__category">Learning</span>
+          </figcaption>
+        </figure>
+        <time datetime="2023-12-21" class="blogCard__date"
+          >Published 21 Dec 2023</time
+        >
+      </header>
 
-  Learning
+      <h2 class="blogCard__title">HTML & CSS foundations</h2>
 
-  Published 21 Dec 2023
+      <p class="blogCard__description">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
 
-  HTML & CSS foundations
+      <article class="blogCard__author">
+        <img
+          src="./assets/images/image-avatar.webp"
+          alt="Avatar of the blogs author"
+          class="blogCard__author-avatar"
+        />
+        <span class="blogCard__author-name">Greg Hooper</span>
+      </article>
+    </main>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
-</body>
+    <footer class="blogCard__footer">
+      <p class="blogCard__footer-text">
+        Challenge by
+        <a
+          class="blogCard__footer-link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="blogCard__footer-link"
+          href="https://github.com/mr-mib/QR-code-component"
+          >mr-mib</a
+        >.
+      </p>
+    </footer>
+  </body>
 </html>
