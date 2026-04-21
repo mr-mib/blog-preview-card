@@ -80,7 +80,7 @@ body {
 }
 
 .blogCard__category {
-  padding: clamp(0.2rem, 0.6vw, 0.3rem) clamp(0.35rem, 1vw, 0.5rem);
+  padding: 0.3rem 0.5rem;
   border-radius: 0.3rem;
   display: inline;
 
@@ -95,13 +95,15 @@ body {
   color: var(--color-heavy-text);
 }
 
-.blogCard__title:active {
-  color: var(--color-primary);
+.blogCard__title:hover {
   cursor: pointer;
 }
 
+.blogCard__title:active {
+  color: var(--color-primary);
+}
+
 .blogCard__footer-text {
-  /* font-size: var(--font-size-base); */
   font-size: 0.8rem;
 }
 
