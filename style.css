@@ -95,12 +95,9 @@ body {
   color: var(--color-heavy-text);
 }
 
-.blogCard__title:hover {
-  cursor: pointer;
-}
-
 .blogCard__title:active {
   color: var(--color-primary);
+  cursor: pointer;
 }
 
 .blogCard__footer-text {
