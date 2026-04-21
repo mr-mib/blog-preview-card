@@ -115,7 +115,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - GitHub - [mr-mib](https://github.com/mr-mib)
 - Frontend Mentor - [@mr-mib](https://www.frontendmentor.io/profile/mr-mib)
-- Twitter - [@mr*mib*](https://x.com/mr_mib_)
+- Twitter - [@mr_mib_](https://x.com/mr_mib_)
 
 ## Acknowledgments
 
